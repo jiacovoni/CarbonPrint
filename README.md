@@ -62,6 +62,22 @@ Press P to open the URL to your app. Once you click install, you can start devel
 
 Local development is powered by [the Shopify CLI](https://shopify.dev/docs/apps/tools/cli). It logs into your partners account, connects to an app, provides environment variables, updates remote config, creates a tunnel and provides commands to generate extensions.
 
+### Running tests
+
+Install the development dependencies:
+
+```bash
+npm install
+```
+
+Then run the test suite:
+
+```bash
+npm test
+```
+
+Tests located in the `tests/` directory rely on the `vitest` framework.
+
 ### Authenticating and querying data
 
 To authenticate and query data you can use the `shopify` const that is exported from `/app/shopify.server.js`:
