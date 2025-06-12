@@ -1,9 +1,5 @@
 import { Page, Card, Text, Button } from "@shopify/polaris";
 import { TitleBar } from "@shopify/app-bridge-react";
- /app  → app/routes/app._index.jsx
-cat > app/routes/app._index.jsx <<'EOF'
-import { Page, Card, Text, Button } from "@shopify/polaris";
-import { TitleBar } from "@shopify/app-bridge-react";
 
 export default function AppHome() {
   return (
